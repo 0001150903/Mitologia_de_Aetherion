@@ -1,0 +1,76 @@
+body{
+    background-color: #0b2545;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    line-height: 1.8;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 800px;
+    width: 100%;
+    background-color: #ccdbfd;
+    padding: 2rem 3rem;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+
+img { 
+    max-width: 50%; 
+    height: auto; 
+    display: block; 
+    margin: 20px auto; 
+    border-radius: 12px; 
+    box-shadow: 0 4px 8px  #a487d4; 
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+h1,h2{
+    color: rgb(83, 62, 158);
+}
+
+p{
+    text-align: justify;
+}
+
+/* Seção de Navegação*/
+.navigation-section {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #abc4ff;
+    border-radius: 8px;
+}
+
+.nav-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #168aad; /* Cor azul da paleta */
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.nav-button:hover {
+    background-color: #1a759f; /* Tom de azul mais escuro */
+    transform: translateY(-2px);
+}
+
+a { 
+    color: #34a0a4; /* Cor azul-petróleo para links */
+    text-decoration: none; 
+    font-weight: bold; 
+}
+
+a:hover { 
+    color: #168aad; /* Azul mais forte ao passar o mouse */
+    text-decoration: underline; 
+}
