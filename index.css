@@ -35,6 +35,16 @@ h1,h2{
     color: rgb(83, 62, 158);
 }
 
+video{
+    width: 600px;
+    height: 600px;
+}
+
+.begin{
+    display: flex;
+    justify-content: center;
+}
+
 p{
     text-align: justify;
 }
